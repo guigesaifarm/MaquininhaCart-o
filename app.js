@@ -1,6 +1,9 @@
 function comprar(produto) {
+
   localStorage.setItem('produto', produto);
-  window.location.href = 'checkout.html';
+
+  window.location.href = "./checkout.html";
+
 }
  
 const form = document.getElementById('checkoutForm');
